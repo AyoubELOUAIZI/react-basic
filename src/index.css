@@ -39,3 +39,20 @@
     margin: 40px auto;
     padding: 20px;
 }
+/* blog previews / list */
+.blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+/* i think this is the most important thing to make the cards it is using box shodow */
+.blog-preview:hover {
+    box-shadow: 2px 4px 10px rgba(17, 16, 16, 0.1);
+}
+
+.blog-preview h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
+}
