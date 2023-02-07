@@ -1,11 +1,12 @@
-import './App.css';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
-  const myTitle="welcom to my market"
   return (
     <div className="App">
-      <div className="container">
-        <h1>{myTitle}</h1>
+      <Navbar />
+      <div className="content">
+        <Home />
       </div>
     </div>
   );
