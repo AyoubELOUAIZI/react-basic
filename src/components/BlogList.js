@@ -1,4 +1,4 @@
-const BlogList = ({ blogs, title }) => {
+const BlogList = ({ blogs, title, handeldelete }) => {
     // Destructuring the props object to get the blogs and title data
     // The equivalent code is:
     // const blogs = props.blogs;
@@ -18,6 +18,7 @@ const BlogList = ({ blogs, title }) => {
                     {/* Displaying the title and author of each blog */}
                     <h2>{blog.title}</h2>
                     <p>Written by {blog.author}</p>
+                    <button onClick={()=>handeldelete(blog.id)}>delete blog</button>
                 </div>
             ))}
         </div>
