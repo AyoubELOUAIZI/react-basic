@@ -18,6 +18,7 @@ const BlogList = ({ blogs, title, handeldelete }) => {
                     {/* Displaying the title and author of each blog */}
                     <h2>{blog.title}</h2>
                     <p>Written by {blog.author}</p>
+                    <p>{blog.body}</p>
                     <button onClick={()=>handeldelete(blog.id)}>delete blog</button>
                 </div>
             ))}
