@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom'
 import Create from './components/Create';
 import BlogDetails from './components/BlogDetails';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='/' element={<Home />} />
             <Route path='/create' element={<Create />} />
+            <Route path='*' element={<NotFound />} />
             <Route path='/blogs/:id' element={<BlogDetails />} />
 
           </Routes>
