@@ -1,3 +1,4 @@
+command to install routes in react :npm i react-router-dom
 npx json-server --watch data/db.json --port 7000   :this commmand is used to turn on the json server i think and whatch the data it is like an api 
 ////////////////////////////////////////////////|this is what is gives me:
 PS C:\Users\admin\Desktop\basic react\basic-react> npx json-server --watch data/db.json --port 7000 
