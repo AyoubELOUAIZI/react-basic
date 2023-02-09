@@ -56,3 +56,12 @@ GET /blogs 304 14.246 ms - -
 GET /blogs 304 20.281 ms - -
 GET /blogs 304 14.080 ms - -
 GET /blogs 304 25.134 ms - -
+
+
+## Screenshots:
+
+  ![screenshot 1](./public/images/screenshot_20230209_122836.png);
+
+  ![screenshot 2](./public/images/screenshot_20230209_122900.png);
+
+  ![screenshot 3](./public/images/screenshot_20230209_123017.png);
